@@ -17,17 +17,21 @@ Si vous n'avez pas encore installé Git sur votre ordinateur, vous pouvez télé
 
 Avant de pouvoir utiliser Git, vous devez configurer votre nom d'utilisateur et votre adresse e-mail. Ouvrez une ligne de commande ou un terminal et entrez les commandes suivantes en remplaçant "votre_nom" et "votre_email" par votre nom d'utilisateur et votre adresse e-mail :
 
+```
 git config --global user.name "votre_nom"
 git config --global user.email "votre_email"
+```
 
 
 ## Étape 3 : Création d'un dépôt Git
 
 Maintenant que Git est installé et configuré, vous pouvez créer votre premier dépôt Git. Pour créer un dépôt Git, ouvrez un terminal ou une ligne de commande Git et naviguez jusqu'au dossier où vous souhaitez créer votre dépôt. Entrez les commandes suivantes :
 
+```
 mkdir nom_du_depot
 cd nom_du_depot
 git init
+```
 
 
 Cela va créer un nouveau dossier "nom_du_depot" et initialiser un dépôt Git à l'intérieur.
@@ -36,15 +40,18 @@ Cela va créer un nouveau dossier "nom_du_depot" et initialiser un dépôt Git �
 
 Maintenant que vous avez créé votre dépôt Git, vous pouvez y ajouter des fichiers. Pour ajouter des fichiers, copiez-les simplement dans le dossier du dépôt que vous venez de créer. Vous pouvez également utiliser la commande `git add` pour ajouter des fichiers spécifiques. Par exemple, si vous avez un fichier appelé "mon_fichier.txt" que vous souhaitez ajouter, entrez la commande suivante :
 
+```
 git add mon_fichier.txt
+```
 
 
 ## Étape 5 : Enregistrement des modifications dans Git
 
 Une fois que vous avez ajouté des fichiers à votre dépôt, vous pouvez enregistrer les modifications en utilisant la commande `git commit`. Pour enregistrer tous les fichiers qui ont été ajoutés à votre dépôt, entrez la commande suivante :
 
+```
 git commit -m "Premier commit"
-
+```
 
 Cela enregistrera les modifications dans Git avec un message de commit "Premier commit".
 
